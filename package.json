@@ -1,0 +1,19 @@
+{
+  "name": "jsaqa-task3.2",
+  "version": "1.0.0",
+  "description": "Third task for the Web UI test automation course (second part)",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "testh": "playwright test --headed",
+    "testd": "playwright test --debug"
+  },
+  "keywords": [],
+  "author": "Kirill Burilichev",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.6.3"
+  }
+}
